@@ -1,0 +1,28 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "scripts": {
+    "lint": "pnpm run /lint:.*/",
+    "lint:ws": "pnpm --recursive --if-present lint",
+    "lint:check": "biome check .",
+    "lint:spell": "cspell lint . --cache --gitignore",
+    "fix": "pnpm run /fix:.*/",
+    "fix:ws": "pnpm --recursive --if-present fix",
+    "fix:root": "biome check . --write",
+    "dev": "pnpm --recursive --if-present dev"
+  },
+  "packageManager": "pnpm@9.12.3",
+  "engines": {
+    "npm": "use pnpm please❤️ ",
+    "yarn": "use pnpm please❤️ ",
+    "pnpm": ">=9.4.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@dotenvx/dotenvx": "1.22.0",
+    "aws-cdk": "2.165.0",
+    "cspell": "8.15.7",
+    "tsx": "4.19.2",
+    "typescript": "5.6.3"
+  }
+}

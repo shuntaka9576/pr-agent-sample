@@ -9,11 +9,20 @@ extra_instructions = "answer in Japanese"
 [pr_description]
 extra_instructions = "answer in Japanese"
 
-[pr_questions]
-extra_instructions = "answer in Japanese"
-
 [pr_code_suggestions]
 extra_instructions = "answer in Japanese"
 
+[pr_add_docs]
+extra_instructions = "answer in Japanese"
+
+[pr_questions]
+extra_instructions = "answer in Japanese"
+
 [pr_update_changelog]
+extra_instructions = "answer in Japanese"
+
+[pr_test]
+extra_instructions = "answer in Japanese"
+
+[pr_improve_component]
 extra_instructions = "answer in Japanese"
